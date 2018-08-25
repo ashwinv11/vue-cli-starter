@@ -1,4 +1,4 @@
 {
   "*.{vue,ts,tsx}": ["tslint --fix --config ./tslint.json", "git add"],
-  "*.scss": "stylelint --syntax=scss"
+  "*.{vue,scss}": "stylelint --syntax=scss"
 }
