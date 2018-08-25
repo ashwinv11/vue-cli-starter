@@ -1,5 +1,5 @@
 {
-  "name": "website-reboot",
+  "name": "website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,6 +7,9 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "prettier-watch": "onchange '**/*' -- prettier --write {{changed}}"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
   },
   "dependencies": {
     "register-service-worker": "^1.0.0",
@@ -19,9 +22,11 @@
     "@vue/cli-plugin-typescript": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
     "eslint-plugin-prettier": "^2.6.2",
+    "lint-staged": "^7.2.2",
     "node-sass": "^4.9.0",
     "onchange": "^4.1.0",
     "sass-loader": "^7.0.1",
+    "stylelint": "^9.5.0",
     "tslint-config-prettier": "^1.15.0",
     "typescript": "^3.0.0",
     "vue-template-compiler": "^2.5.17"
