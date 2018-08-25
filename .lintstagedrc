@@ -1,4 +1,5 @@
 {
-  "*.{vue,ts,tsx}": ["tslint --fix --config ./tslint.json", "git add"],
+  "*.{vue,ts,tsx,json,md,js}": ["prettier --write", "git add"],
+  "*.{ts,tsx}": "yarn lint",
   "*.{scss}": "stylelint --syntax=scss"
 }
