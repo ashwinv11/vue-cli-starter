@@ -4,9 +4,9 @@
 
 * :white_check_mark: [Vue 2+](https://vuejs.org/)
 * :white_check_mark: [Vue CLI 3+](https://cli.vuejs.org/) with the following plugins:
-  - [Babel](https://babeljs.io/)
-  - [Typescript](https://www.typescriptlang.org/docs/home.html)
-  - [PWA Support](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa)
+  - :zap: [Babel](https://babeljs.io/)
+  - :pencil2: [Typescript](https://www.typescriptlang.org/docs/home.html)
+  - :globe_with_meridians: [PWA Support](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa)
 * :white_check_mark: [Vue Router](https://router.vuejs.org/)
 * :white_check_mark: [SASS](https://sass-lang.com/guide) for styles
 * :white_check_mark: [TSLint](https://github.com/palantir/tslint) & [Stylelint](https://github.com/stylelint/stylelint) for linting
